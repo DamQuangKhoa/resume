@@ -1,0 +1,569 @@
+
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "Ted online Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Dam Quang Khoa(Ted)"
+        tagline = "Software/Cloud Engineer"
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Viet Nam"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:0971493296"
+        text = "(+84) 971493296"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:dqkhoa02@gmail.com"
+        text = "dqkhoa02@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+       
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "AWS"
+        [[params.skills.list.items]]
+        details = "Docker/Kubernetes/Helm"
+        [[params.skills.list.items]]
+        details = "Terraform/CloudFormation"
+        [[params.skills.list.items]]
+        details = "Jenkins CI/CD Pipelines"
+        [[params.skills.list.items]]
+        details = "GitHub Actions"
+        [[params.skills.list.items]]
+        details = "GitLab"
+        [[params.skills.list.items]]
+        details = "Ansible"
+        [[params.skills.list.items]]
+        details = "Java/Python/TypeScript/React/VueJS"
+        
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelor in Computer Science"
+        university = "University of Agriculture and Forestry, Ho Chi Minh City"
+        dates = "2015 - 2019"
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Intermediate"
+        [[params.languages.list]]
+        name = "Vietnamese"
+        level = "Native"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Football"
+        [[params.interests.list]]
+        name = "Food"
+        [[params.interests.list]]
+        name = "Gaming"
+        [[params.interests.list]]
+        name = "Sightseeing"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "A SRE/Cloud Engineer who builds, tests, deploys, and runs applications/microservices on the AWS cloud. A strong varied development background in both backend + frontend and with a broad technical experience accumulated to date allowed me to apply my range of technical skills across numerous business domains. A Developer turned DevOps Engineer who is passionate about Infrastructure as Code, creating Pipeline as Code and a firm believer in close collaboration between Developers & Operators aiming to help bridge the gap and shorten the overall release cycle. An effective team member who is very hands-on and takes ownership of business & technical requirements taking them from concept right through to production."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Q3 2023 - Present"
+        company = "LINE Japan ML Data Curation App"
+        details = "LINE developed an internal web app that empowers data scientists to curate and label datasets for training machine learning models. Clean, high-quality data is critical for ML success. This app gave data scientists self-service access to manage and enrich datasets at scale. The app provided data visualization, annotation tools, version control, and integration with model training pipelines. Built on Python, React, and TensorFlow, it showcased LINE's expertise in ML engineering"
+        [[params.experience.list.items]]
+        details = "Created web application using Vue 3, Vite, and Ant Design framework on frontend and Express, Java on backend to help data scientists curate training data for machine learning models"
+        [[params.experience.list.items]]
+        details = "Implemented REST APIs with Node.js and Express to retrieve data from MySQL database and update labels/tags"
+        [[params.experience.list.items]]
+        details = "Developed Vue 3 components allowing data scientists to review, label, and augment data sets"
+        [[params.experience.list.items]]
+        details = "Implemented REST APIs with Node.js and Express to retrieve data from MySQL database and update labels/tags"
+        [[params.experience.list.items]]
+        details = "Followed test-driven development techniques using Vitest, Testing Library to achieve over 90% test coverage"
+        [[params.experience.list.items]]
+        details = "Worked in agile sprints and presented app at bi-weekly demos to get early feedback from users"
+        [[params.experience.list.items]]
+        details = "Containerized backend services using Docker for easy deployment to Kubernetes cluster"
+        [[params.experience.list.items]]
+        details = "Contributed to multiple frontend and backend repos in team’s Github environment"
+        [[params.experience.list.items]]
+        details = "Increased labeled data volume by 2x over manual process"
+        [[params.experience.list.items]]
+        details = "Reduced model training time by 30% due to data quality"
+        [[params.experience.list.items]]
+        details = "Enabled new ML-powered chatbot products leveraging curated data"
+        [[params.experience.list.items]]
+        details = "Data scientists work efficiency improved by 20%"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Q2 2023"
+        company = "LINE Korea Channel Portal"
+        details = "LINE built an internal developer portal that serves as a central hub for technical documentation, code, and APIs. With microservices architecture, developers needed a reliable way to find and utilize internal services. The Channel Portal enables LINE's 1000+ developers to efficiently build products powered by common components"
+        [[params.experience.list.items]]
+        details = "Built declarative UIs using latest React features "
+        [[params.experience.list.items]]
+        details = "Implemented React hooks with SWR for efficient data fetching and cache management"
+        [[params.experience.list.items]]
+        details = "Architected component library using Storybook for consistent UI development"
+        [[params.experience.list.items]]
+        details = "Created backend microservices with Node.js and ExpresS"
+        [[params.experience.list.items]]
+        details = "Implemented developer workflows like API search, docs, and code samples using TypeScript interfaces"
+        [[params.experience.list.items]]
+        details = "Added unit testing using Vitest and React Testing Library for components and hooks"
+        [[params.experience.list.items]]
+        details = "Optimized build process using Vite's faster ESbuild transformation"
+        [[params.experience.list.items]]
+        details = "Set up CI/CD pipelines managed by DroneCI to ensure quality through automation"
+        [[params.experience.list.items]]
+        details = "Contributed extensively to frontend and backend codebases managed in Git version control"
+        [[params.experience.list.items]]
+        details = "Actively participated in code reviews, design reviews, and bug triaging sessions"
+        [[params.experience.list.items]]
+        details = "Reduced time spent hunting down service docs by 50%"
+        [[params.experience.list.items]]
+        details = "Increased API consumption across groups by allowing discovery"
+        [[params.experience.list.items]]
+        details = "Decreased duplicate work and re-engineering of existing systems"
+        [[params.experience.list.items]]
+        details = "Enabled self-service access to services through structured documentation"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Q1 2023"
+        company = "LINE Taiwan Baseball Fan Voting App "
+        details = "LINE developed a web application that allows baseball fans to vote for their favorite players to make the annual all-star team. Fans can browse player profiles, view statistics, and submit votes online. The app taps into the huge popularity of baseball in Taiwan and increases engagement"
+        [[params.experience.list.items]]
+        details = "Developed progressive web app with Nuxt 2 and Pinia state management to allow fans to vote for baseball all-stars"
+        [[params.experience.list.items]]
+        details = "Built server-side rendered pages and static assets using Nuxt to optimize SEO"
+        [[params.experience.list.items]]
+        details = "Created reusable Vue components for browsing players and submitting votes using TypeScript"
+        [[params.experience.list.items]]
+        details = "Managed application state with Pinia store and fetched data from API using Axios"
+        [[params.experience.list.items]]
+        details = "Developed Nuxt modules to integrate authentication and theming capabilities"
+        [[params.experience.list.items]]
+        details = "Tested components and UI interactions using Jest and Cypress test frameworks"
+        [[params.experience.list.items]]
+        details = "Designed responsive layouts supporting mobile and desktop experiences"
+        [[params.experience.list.items]]
+        details = "Delivered app on budget and 3 weeks ahead of schedule"
+        [[params.experience.list.items]]
+        details = "Worked closely with product manager and designers to build intuitive user-facing application"
+        [[params.experience.list.items]]
+        details = "Presented app to key stakeholders and incorporated feedback into UX enhancements"
+         [[params.experience.list.items]]
+        details = "Over 500,000 votes submitted through the platform in its first season"
+         [[params.experience.list.items]]
+        details = "Voters spent 2x more time on LINE, driving increased usage"
+         [[params.experience.list.items]]
+        details = "Enabled new advertising and sponsorship opportunities generating over $1M in first year"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2021 - 2023"
+        company = "LINE Japan Telemedicine Web Application "
+        details = "LINE built a telemedicine platform that enables patients to virtually consult doctors, obtain prescriptions, and get medications delivered. This improves access to care, reduces hospital visits, and provides convenience. The web and mobile app features appointment scheduling, video calls with clinicians, and integrations with pharmacies and couriers. Developing the HIPAA-compliant platform required complex integrations with healthcare IT systems"
+        [[params.experience.list.items]]
+        details = "Built reusable Vue components for key workflows like appointment scheduling, video consultations, and Rx requests"
+        [[params.experience.list.items]]
+        details = "Architected Redux state management system to manage complex data flows across booking, video chat, calendar and user account features"
+        [[params.experience.list.items]]
+        details = "Built reusable Vue components for key workflows like appointment scheduling, video consultations, and Rx requests"
+        [[params.experience.list.items]]
+        details = "Implemented backend APIs with Node.js, Express and Java Spring Boot to integrate with clinic, pharmacy and courier systems"
+        [[params.experience.list.items]]
+        details = "Migrated codebase from Vue 2 to Vue 3 and optimized build process to reduce bundle size by 40%"
+        [[params.experience.list.items]]
+        details = "Introduced E2E testing with Cypress and unit testing with Jest to improve code quality"
+        [[params.experience.list.items]]
+        details = "Coordinated with product team to refine UX and enhance mobile experience for patients"
+        [[params.experience.list.items]]
+        details = "Troubleshot and patched security vulnerabilities identified in application penetration testing"
+        [[params.experience.list.items]]
+        details = "Enabled over 100,000 online doctor consultations in first year, increasing access to medical care"
+        [[params.experience.list.items]]
+        details = "Reduced no-show rate by 50% compared to in-clinic appointments, improving provider efficiency"
+        [[params.experience.list.items]]
+        details = "Reduced public health risk during COVID-19 pandemic by enabling remote healthcare"
+        [[params.experience.list.items]]
+        details = "Helped healthcare partners generate additional revenue through online consultations"
+        [[params.experience.list.items]]
+        details = "Patient satisfaction scores improved from 72% to 88% after launch of video chat feature"
+        [[params.experience.list.items]]
+        details = "Generated over $2M in additional appointment booking revenue for healthcare partners in the first year"
+        [[params.experience.list.items]]
+        details = "Unlocked new revenue stream with over 50,000 online consultations paid directly by patients"
+        [[params.experience.list.items]]
+        details = "Reduced administrative overhead for appointments, allowing clinics to save approximately $150K"
+        [[params.experience.list.items]]
+        details = "Decreased no-show rates resulting in $250K savings from unused appointment slots"
+        [[params.experience.list.items]]
+        details = "Won LINE Healthcare Innovation Award in 2021 for telemedicine capabilities"
+        
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Q1, Q2 2020"
+        company = "LINE Korea Ara Web Application"
+        details = "LINE Ads Manager Portal was an internal platform built to enable self-serve advertising for LINE's massive user base. With over 500 million global users on the LINE chat application, there was strong demand from businesses to reach this audience through ads. However, LINE's existing ad platform required manual involvement from sales teams, limiting scalability and adoption. The Ads Manager Portal was envisioned to allow any business to come to LINE, set up an account, create ad campaigns, target user segments, and manage budgets without sales team involvement. This improved efficiency and unlocked new ad revenue from small and mid-sized advertisers that LINE sales teams did not have bandwidth to manage one-on-one. The self-serve portal provided robust analytics so advertisers could optimize campaigns and spend based on actionable insights. By empowering advertisers with an easy-to-use SaaS platform, LINE was able to tap into the long-tail of digital advertising demand"
+        [[params.experience.list.items]]
+        details = "Developed using Vue.js for the front-end UI with a focus on performance, maintainability, and modularity"
+        [[params.experience.list.items]]
+        details = "Leveraged Vuex for state management across various functional areas like ad creation, targeting, reporting, and billing"
+        [[params.experience.list.items]]
+        details = "Implemented reusable UI components with a consistent design system for an intuitive user experience"
+        [[params.experience.list.items]]
+        details = "Integrated Chart.js to visualize ad analytics and campaign performance data"
+        [[params.experience.list.items]]
+        details = "Built backend APIs with Node.js and Express to handle data access and business logic"
+        [[params.experience.list.items]]
+        details = "Managed campaign data, targeting parameters, and billing using MongoDB NoSQL database"
+        [[params.experience.list.items]]
+        details = "Followed test-driven development principles with Jest, Mocha and Chai for unit and integration testing"
+        [[params.experience.list.items]]
+        details = "Designed infrastructure on AWS using Docker containers and auto-scaling groups for efficient resource management"
+        [[params.experience.list.items]]
+        details = "Implemented CI/CD workflows with Jenkins to automate testing and promote releases across environments"
+        [[params.experience.list.items]]
+        details = "Unlocked $15M in incremental ad revenue in first year through self-serve model"
+        [[params.experience.list.items]]
+        details = "Acquired over 5,000 new advertisers that were previously untapped by sales team bandwidth limitations"
+        [[params.experience.list.items]]
+        details = "Achieved 40% lower customer acquisition cost by reducing reliance on sales teams"
+        [[params.experience.list.items]]
+        details = "Generated higher return on ad spend for advertisers, encouraging greater spend over time"
+
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Q3, Q4 2020"
+        company = "LINE Korea Global Search"
+        details = "LINE handles billions of chat messages daily. Without search capabilities across all chats, users struggled to find content. The Global Search Engine enabled users to search their entire chat history to easily locate messages, media, links and conversations. This improved the chat experience and engagement. Building the scalable search system required indexing Line's vast chat data, developing performant APIs, creating data pipelines, and optimizing the search UX. The Global Search Engine delivered a core capability that enhanced LINE's chat product."
+        [[params.experience.list.items]]
+        details = "Leveraged Vuex state management for caching and quickly updating search results on user input"
+        [[params.experience.list.items]]
+        details = "Built reusable search components for rendering different result types like messages, media, links"
+        [[params.experience.list.items]]
+        details = "Constructed analytics dashboards with Chart.js to analyze search usage patterns"
+        [[params.experience.list.items]]
+        details = "Developed Node.js and Express APIs to handle high-throughput search requests"
+        [[params.experience.list.items]]
+        details = "Built Java services using Spring Boot to sync chat data into search indexes"
+        [[params.experience.list.items]]
+        details = "Containerized apps with Docker and Kubernetes for efficient scaling"
+        [[params.experience.list.items]]
+        details = "Reduced infrastructure costs by optimizing search architecture - maintained QPS with 30% fewer servers"
+        [[params.experience.list.items]]
+        details = "Enabled Premium search tier monetization through advanced features like conversational bots"
+        [[params.experience.list.items]]
+        details = "Reduced infrastructure costs by optimizing search architecture - maintained QPS with 30% fewer servers"
+        [[params.experience.list.items]]
+        details = "Bug fixes and optimizations reduced latency of search requests by 40%"
+        [[params.experience.list.items]]
+        details = "Indexed and made searchable over 300 billion historical chat messages"
+        [[params.experience.list.items]]
+        details = "Ranked results across various media types - text, images, video, files"
+        
+
+        [[params.experience.list]]
+        title = "AWS Cloud Engineer [Freelancer]"
+        dates = "06/2020 - 2022"
+        company = "Start-up FCS E-Parking App"
+        details = "In recent years, the growth rate of personal vehicles, especially cars, is causing Vietnam to fall into a situation of serious lack of parking. So we decided to make a start-up company to developed a smart parking app that automates parking spot discovery and reservation using AWS serverless technology. The app provides real-time parking visibility, automated reservations, contactless payments and integration with parking gate systems. The backend leverages AWS Lambda, DynamoDB, API Gateway and modern architectures"
+        [[params.experience.list.items]]
+        details = "Developed REST APIs with Node.js and Express hosted on AWS API Gateway for app backend"
+        [[params.experience.list.items]]
+        details = "Implemented OAuth2 authentication for secure user login and access control"
+        [[params.experience.list.items]]
+        details = "Stored parking data including availability, reservations, and payments in DynamoDB NoSQL database"
+        [[params.experience.list.items]]
+        details = "Built out serverless architecture using AWS Lambda functions for core parking logic"
+        [[params.experience.list.items]]
+        details = "Containerized microservices using Docker for efficient deployment to Elastic Beanstalk"
+        [[params.experience.list.items]]
+        details = "Leveraged Kubernetes and ECS for container orchestration and auto-scaling"
+        [[params.experience.list.items]]
+        details = "Designed CI/CD pipelines for build, test, and deployment automation with TravisCI"
+        [[params.experience.list.items]]
+        details = "Setup CloudWatch monitoring for observability and alarms on critical metrics"
+        [[params.experience.list.items]]
+        details = "Managed resource provisioning and access control through AWS IAM"
+        [[params.experience.list.items]]
+        details = "Distributed load across AZs and optimized performance using caching with CloudFront, Route 53"
+        [[params.experience.list.items]]
+        details = "Built scalable platform to expand parking services across Vietnam"
+        [[params.experience.list.items]]
+        details = "Validated parking automation tech and acquired venture capital funding"
+
+        [[params.experience.list]]
+        title = "Software Engineer [Freelancer]"
+        dates = "2018 - 2020"
+        company = "NedClass E-Learning Platform"
+        details = "NedClass was founded in 2018 to create an online learning platform focused on courses taught by well-known instructors in Vietnam. The founders saw an opportunity to provide high-quality, video-based learning content from recognized experts and celebrities to Vietnamese consumers. The NedClass platform enables instructors to build course curriculum, record video lessons, track student progress, and get paid as creators. For learners, NedClass offers an affordable and convenient way to learn from renowned experts across topics like business, photography, cooking, music, and more. "
+        [[params.experience.list.items]]
+        details = "Developed reactive single-page application using React and Redux frontend framework"
+        [[params.experience.list.items]]
+        details = "Built RESTful APIs with Node.js and Express to handle backend logic and data access"
+        [[params.experience.list.items]]
+        details = "Stored course data, user accounts, and analytics in MongoDB NoSQL database"
+        [[params.experience.list.items]]
+        details = "Implemented video uploading and streaming workflows with Amazon S3 service"
+        [[params.experience.list.items]]
+        details = "Integrated Stripe, Momo for subscription payments and revenue management"
+        [[params.experience.list.items]]
+        details = "Created CMS-style interface with React allowing instructors to manage course content"
+        [[params.experience.list.items]]
+        details = "Set up Docker containerization and Kubernetes for scalable deployment"
+        [[params.experience.list.items]]
+        details = "Established CI/CD pipelines for continuous testing and deployment"
+        [[params.experience.list.items]]
+        details = "Leveraged AWS CloudFront and EC2 for faster content delivery"
+        [[params.experience.list.items]]
+        details = "Built admin dashboard using React Admin for managing users, courses and analytics"
+        [[params.experience.list.items]]
+        details = "Implemented end-to-end testing using Cypress and Jest for quality assurance"
+
+
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2014 - 2014"
+        company = "NHS Digital"
+        details = "Within a 'DevOps' focused project team of 40+ people, assisting with the delivery of NHS Spine II which is a complete-rewrite of NHS's legacy backend integration messaging system (Spine I)."
+        [[params.experience.list.items]]
+        details = "Application monitoring using monitoring tools like Splunk, observing application performance from charts and graphs."
+        [[params.experience.list.items]]
+        details = "Non functional testing of failing over key components of the system's architecture like killing Redis sentinel."
+        [[params.experience.list.items]]
+        details = "Prioritization of automated peformance testing using Grinder (a Java Load Testing tool) with test scripts implemented using Jython (a Java implementation of Python)."
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2011 - 2014"
+        company = "Thomson Reuters"
+        details = "Working in a project focused team of 20+ people offsite on Bjss's development centre for Thomson Reuters on their backend New Matching Host (NMH) which is a real-time low latency multithreaded high availability FX trading host system for matching traders deals. From doing operations & infrastructure type tasks in setting up/provisioning bare-metal servers, to fixing defects, non-functional testing, performance testing, administrating databases, implementing in-house utility tools, testing tools, trading tools."
+        [[params.experience.list.items]]
+        details = "Using Bash Shell Scripting to create scripts that automate deployment of application to on- premise physical bare metal servers."
+        [[params.experience.list.items]]
+        details = "Deadlock investigations, searching for throughput spikes using low level traditional programming techniques (timing measurements to do code instrumentation, Thread dumps)"
+        [[params.experience.list.items]]
+        details = "Performance Testing, application & database bottlenecks diagnosis"
+        [[params.experience.list.items]]
+        details = "Java JVM heap memory, CPU, Threads, Garbage Collection analysis & fine tuning"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2011 - 2014"
+        company = "Bjss"
+        details = "A Software Engineer participating in different projects for multiple clients. Involved throughout the whole Software Development lifecycle (SDLC) which includes development (new features, bug fixes), testing (functional & non-functioanl), operations"
+
+        [[params.experience.list]]
+        title = "Web Developer"
+        dates = "2010 - 2011"
+        company = "Mobile Velocity"
+        details = "An initial co-founder of the company where I lead the company's technical development through the initial stages of their journey. I helped developed client side of a mobile web application and actively engaged with a 3rd Party technology consortium (included a former W3C panel member) for a technical feasibility study in developing prototypes using emerging (at the time) HTML5 technology."
+        
+        [[params.experience.list]]
+        title = "C# Developer"
+        dates = "2009 - 2009"
+        company = "Sciencesoft"
+        details = "A summer internship where I was in a small team of three fellow interns to work on an automation test suite for testing the functional features of the company's core suite of products which were a series of different applications that performs modelling for oil and gas energy simulations."
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Microservice AWS Demo"
+        meta = "Open Source"
+        tagline = "A complete demo project containing a collection of smaller individual demo projects that showcases various methods of building a microservice (in any programming language - currently only Java & NodeJs) and running it on the various different AWS compute services (EC2 non-containerized, EC2 with Docker, ECS, ECS Fargate, EKS, Elastic Beanstalk)."
+
+        [[params.projects.list]]
+        title = "Snowman"
+        meta = "Open Source"
+        tagline = "A demo project showing a typical traditional monolithic enterprise scale application. Showcasing numerous features incl. transactions, caching, database migration, scheduling, messaging, Restful web services, database access, enterprise integration, scalability, clustering, high availability, software architecture, enterprise application architecture."
+
+        [[params.projects.list]]
+        title = "Sales Order System"
+        meta = "Open Source"
+        tagline = "Sales Order System is one of my earliest pet project of mine which originally spawn from an idea/application I worked on whilst working for Solarcentury. Project demontrates a very simple full stack Java Spring Boot application using JavaEE technologies in the backend with JSP serving up HTML, CSS, with JS, JQuery on the frontend."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Certifications"
+        [[params.information.list.items]]
+        details = "2021 · SQL (HackerRank)"
+        [[params.information.list.items]]
+        details = "2021 · Python (HackerRank)"
+        [[params.information.list.items]]
+        details = "2020 · Certified Jenkins Engineer 2020"
+        [[params.information.list.items]]
+        details = "2020 · Hashicorp Certified: Terraform Associate"
+        [[params.information.list.items]]
+        details = "2019 · AWS Certified Cloud Practitioner"
+        [[params.information.list.items]]
+        details = "2014 · Oracle Certified Associate, Java SE 7 Programmer"
+
+        [[params.information.list]]
+        title = "Courses"
+        [[params.information.list.items]]
+        details = "2021 · Systems Operations on AWS"
+        [[params.information.list.items]]
+        details = "2021 · AWS Security Essentials"
+        [[params.information.list.items]]
+        details = "2021 · Architecting on AWS"
+        [[params.information.list.items]]
+        details = "2021 · Snowflake Data Engineering"
+        [[params.information.list.items]]
+        details = "2020 · DevOps Engineering on AWS"
+        [[params.information.list.items]]
+        details = "2017 · M101J: MongoDB for Java Developers"
+        [[params.information.list.items]]
+        details = "2017 · M001: MongoDB Basics"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/colinbut"
+        title = "Colin But"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/colinbut"
+        title = "Colin But"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/Colin_But"
+        title = "@Colin_But"
+        [[params.social.list]]
+        icon = "fab fa-medium"
+        url = "//colin-but.medium.com/"
+        title = "@Colin_But"
+
+
+
+
