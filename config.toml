@@ -425,15 +425,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.experience.list]]
         title = "Software Engineer"
-        dates = "2014 - 2014"
-        company = "NHS Digital"
-        details = "Within a 'DevOps' focused project team of 40+ people, assisting with the delivery of NHS Spine II which is a complete-rewrite of NHS's legacy backend integration messaging system (Spine I)."
+        dates = "09/2018 - 12/2019"
+        company = "FPT Software"
+        details = "Collaborated with FPT Software's client to design, develop, and maintain a web application for collecting user events (e.g., clicks, views) on an e-commerce website"
         [[params.experience.list.items]]
-        details = "Application monitoring using monitoring tools like Splunk, observing application performance from charts and graphs."
+        details = "Successfully implemented data collection mechanisms to capture user interactions, contributing to the creation of a valuable data repository"
         [[params.experience.list.items]]
-        details = "Non functional testing of failing over key components of the system's architecture like killing Redis sentinel."
+        details = "Conducted data analysis to extract insights and patterns from the collected data, enabling the creation of user segments for targeted advertising campaigns"
         [[params.experience.list.items]]
-        details = "Prioritization of automated peformance testing using Grinder (a Java Load Testing tool) with test scripts implemented using Jython (a Java implementation of Python)."
+        details = "Developed and maintained data pipelines using AWS Redshift, facilitating efficient data storage, retrieval, and analysis."
+        [[params.experience.list.items]]
+        details = "Employed Python for data manipulation, analysis, and automation, streamlining various data-related processes."
+        [[params.experience.list.items]]
+        details = "Contributed to the frontend development using Next.js, ensuring a responsive and user-friendly web application interface."
 
         [[params.experience.list]]
         title = "Software Engineer"
@@ -448,31 +452,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Performance Testing, application & database bottlenecks diagnosis"
         [[params.experience.list.items]]
         details = "Java JVM heap memory, CPU, Threads, Garbage Collection analysis & fine tuning"
-
-        [[params.experience.list]]
-        title = "Software Engineer"
-        dates = "2011 - 2014"
-        company = "Bjss"
-        details = "A Software Engineer participating in different projects for multiple clients. Involved throughout the whole Software Development lifecycle (SDLC) which includes development (new features, bug fixes), testing (functional & non-functioanl), operations"
-
-        [[params.experience.list]]
-        title = "Web Developer"
-        dates = "2010 - 2011"
-        company = "Mobile Velocity"
-        details = "An initial co-founder of the company where I lead the company's technical development through the initial stages of their journey. I helped developed client side of a mobile web application and actively engaged with a 3rd Party technology consortium (included a former W3C panel member) for a technical feasibility study in developing prototypes using emerging (at the time) HTML5 technology."
-        
-        [[params.experience.list]]
-        title = "C# Developer"
-        dates = "2009 - 2009"
-        company = "Sciencesoft"
-        details = "A summer internship where I was in a small team of three fellow interns to work on an automation test suite for testing the functional features of the company's core suite of products which were a series of different applications that performs modelling for oil and gas energy simulations."
-
-
-
-
-
-
-
 
 
     [params.projects]
