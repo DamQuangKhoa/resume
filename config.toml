@@ -473,17 +473,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list]]
         title = "Certifications"
         [[params.information.list.items]]
-        details = "2021 · SQL (HackerRank)"
+        details = "Certificate “Excellent achievements in Youth Union Work” of Youth Union"
         [[params.information.list.items]]
-        details = "2021 · Python (HackerRank)"
+        details = "Certificate Policipal Insurance Blockchain Hackathon"
         [[params.information.list.items]]
-        details = "2020 · Certified Jenkins Engineer 2020"
+        details = "Certificate Agile/Scrum of Axon Active"
         [[params.information.list.items]]
-        details = "2020 · Hashicorp Certified: Terraform Associate"
+        details = "Certificate Dapp BlockChain Hackathon"
         [[params.information.list.items]]
-        details = "2019 · AWS Certified Cloud Practitioner"
+        details = "Certificate VietNam Impact Startup of SUSS(Singapore University Social Science) -Singapore"
         [[params.information.list.items]]
-        details = "2014 · Oracle Certified Associate, Java SE 7 Programmer"
+        details = "Certificate Data Science – Facebook Dev C- Coder School"
+        [[params.information.list.items]]
+        details = "Certificate Near Building Dapp"
 
         [[params.information.list]]
         title = "Courses"
@@ -507,27 +509,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-    [params.social]
-        enable = true
-
-        [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "//github.com/colinbut"
-        title = "Colin But"
-        [[params.social.list]]
-        icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/colinbut"
-        title = "Colin But"
-        [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/Colin_But"
-        title = "@Colin_But"
-        [[params.social.list]]
-        icon = "fab fa-medium"
-        url = "//colin-but.medium.com/"
-        title = "@Colin_But"
+  
 
 
 
