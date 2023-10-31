@@ -40,6 +40,14 @@ googleAnalytics = "G-BX9MR0QQYR"
         icon = "fas fa-envelope-square"
         url = "mailto:dqkhoa02@gmail.com"
         text = "dqkhoa02@gmail.com"
+        [[params.contact.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/dqkhoa"
+        text = "Dam Quang Khoa"
+        [[params.contact.list]]
+        icon = "fab fa-aws"
+        url = "https://www.credly.com/badges/98f6ce07-eec7-4f90-90a8-bd567c166709/public_url"
+        text = "Verified"
        
 
     [params.skills]
@@ -65,13 +73,6 @@ googleAnalytics = "G-BX9MR0QQYR"
         details = "Java/Python/TypeScript/React/VueJS"
         
 
-
-
-
-
-
-
-
     [params.education]
         enable = true
 
@@ -89,6 +90,7 @@ googleAnalytics = "G-BX9MR0QQYR"
         [[params.awards.list]]
         name = "AWS Certified Solutions Architect – Associate"
         body = "Amazon Web Service"
+        url = "https://www.credly.com/badges/98f6ce07-eec7-4f90-90a8-bd567c166709/public_url"
         date = "10/2023-10/2026"
 
 
