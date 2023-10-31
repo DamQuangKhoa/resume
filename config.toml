@@ -1,11 +1,11 @@
 
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://damquangkhoa.github.io/resume"
 languageCode = "en"
 title = "Ted online Resume"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "G-BX9MR0QQYR"
 
 
 [params]
@@ -40,15 +40,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fas fa-envelope-square"
         url = "mailto:dqkhoa02@gmail.com"
         text = "dqkhoa02@gmail.com"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
        
-
-
-
-
-
-
 
     [params.skills]
         enable = true
@@ -92,22 +84,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.awards]
-        enable = false
+        enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
-
-
-
-
-
+        name = "AWS Certified Solutions Architect – Associate"
+        body = "Amazon Web Service"
+        date = "10/2023-10/2026"
 
 
     [params.languages]
@@ -119,11 +101,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.languages.list]]
         name = "Vietnamese"
         level = "Native"
-
-
-
-
-
 
 
 
@@ -469,7 +446,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.information]
         enable = true
-
         [[params.information.list]]
         title = "Certifications"
         [[params.information.list.items]]
@@ -483,7 +459,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list.items]]
         details = "Certificate VietNam Impact Startup of SUSS(Singapore University Social Science) -Singapore"
         [[params.information.list.items]]
-        details = "Certificate Data Science – Facebook Dev C- Coder School"
+        details = "Certificate Data Science – Facebook Dev C - Coder School"
         [[params.information.list.items]]
         details = "Certificate Near Building Dapp"
 
@@ -503,14 +479,3 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "2017 · M101J: MongoDB for Java Developers"
         [[params.information.list.items]]
         details = "2017 · M001: MongoDB Basics"
-
-
-
-
-
-
-  
-
-
-
-
