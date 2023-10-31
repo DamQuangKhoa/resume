@@ -65,13 +65,6 @@ googleAnalytics = "G-BX9MR0QQYR"
         details = "Java/Python/TypeScript/React/VueJS"
         
 
-
-
-
-
-
-
-
     [params.education]
         enable = true
 
@@ -89,6 +82,7 @@ googleAnalytics = "G-BX9MR0QQYR"
         [[params.awards.list]]
         name = "AWS Certified Solutions Architect – Associate"
         body = "Amazon Web Service"
+        url = "open:https://www.credly.com/badges/98f6ce07-eec7-4f90-90a8-bd567c166709/public_url"
         date = "10/2023-10/2026"
 
 
