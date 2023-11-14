@@ -9,8 +9,8 @@ googleAnalytics = "G-BX9MR0QQYR"
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "Ted"
+    description = "DevResume"
 
 
     primaryColor = "#54B689"
@@ -245,8 +245,6 @@ googleAnalytics = "G-BX9MR0QQYR"
         [[params.experience.list.items]]
         details = "Architected Redux state management system to manage complex data flows across booking, video chat, calendar and user account features"
         [[params.experience.list.items]]
-        details = "Built reusable Vue components for key workflows like appointment scheduling, video consultations, and Rx requests"
-        [[params.experience.list.items]]
         details = "Implemented backend APIs with Node.js, Express and Java Spring Boot to integrate with clinic, pharmacy and courier systems"
         [[params.experience.list.items]]
         details = "Migrated codebase from Vue 2 to Vue 3 and optimized build process to reduce bundle size by 40%"
@@ -343,7 +341,7 @@ googleAnalytics = "G-BX9MR0QQYR"
         
 
         [[params.experience.list]]
-        title = "AWS Cloud Engineer [Freelancer]"
+        title = "AWS Cloud Engineer [ Freelancer ]"
         dates = "06/2020 - 2022"
         company = "Start-up FCS E-Parking App"
         details = "In recent years, the growth rate of personal vehicles, especially cars, is causing Vietnam to fall into a situation of serious lack of parking. So we decided to make a start-up company to developed a smart parking app that automates parking spot discovery and reservation using AWS serverless technology. The app provides real-time parking visibility, automated reservations, contactless payments and integration with parking gate systems. The backend leverages AWS Lambda, DynamoDB, API Gateway and modern architectures"
@@ -373,7 +371,7 @@ googleAnalytics = "G-BX9MR0QQYR"
         details = "Validated parking automation tech and acquired venture capital funding"
 
         [[params.experience.list]]
-        title = "Software Engineer [Freelancer]"
+        title = "Software Engineer [ Freelancer ]"
         dates = "2018 - 2020"
         company = "NedClass E-Learning Platform"
         details = "NedClass was founded in 2018 to create an online learning platform focused on courses taught by well-known instructors in Vietnam. The founders saw an opportunity to provide high-quality, video-based learning content from recognized experts and celebrities to Vietnamese consumers. The NedClass platform enables instructors to build course curriculum, record video lessons, track student progress, and get paid as creators. For learners, NedClass offers an affordable and convenient way to learn from renowned experts across topics like business, photography, cooking, music, and more. "
@@ -438,14 +436,6 @@ googleAnalytics = "G-BX9MR0QQYR"
         tagline = "Sales Order System is one of my earliest pet project of mine which originally spawn from an idea/application I worked on whilst working for Solarcentury. Project demontrates a very simple full stack Java Spring Boot application using JavaEE technologies in the backend with JSP serving up HTML, CSS, with JS, JQuery on the frontend."
 
 
-
-
-
-
-
-
-
-
     [params.information]
         enable = true
         [[params.information.list]]
@@ -473,11 +463,4 @@ googleAnalytics = "G-BX9MR0QQYR"
         details = "2021 · AWS Security Essentials"
         [[params.information.list.items]]
         details = "2021 · Architecting on AWS"
-        [[params.information.list.items]]
-        details = "2021 · Snowflake Data Engineering"
-        [[params.information.list.items]]
-        details = "2020 · DevOps Engineering on AWS"
-        [[params.information.list.items]]
-        details = "2017 · M101J: MongoDB for Java Developers"
-        [[params.information.list.items]]
-        details = "2017 · M001: MongoDB Basics"
+
