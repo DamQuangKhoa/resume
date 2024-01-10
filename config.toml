@@ -151,8 +151,6 @@ googleAnalytics = "G-BX9MR0QQYR"
         [[params.experience.list.items]]
         details = "Developed Vue 3 components allowing data scientists to review, label, and augment data sets"
         [[params.experience.list.items]]
-        details = "Implemented REST APIs with Node.js and Express to retrieve data from MySQL database and update labels/tags"
-        [[params.experience.list.items]]
         details = "Followed test-driven development techniques using Vitest, Testing Library to achieve over 90% test coverage"
         [[params.experience.list.items]]
         details = "Worked in agile sprints and presented app at bi-weekly demos to get early feedback from users"
