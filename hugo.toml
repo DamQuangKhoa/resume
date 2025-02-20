@@ -1,4 +1,3 @@
-
 # Page settings
 
 baseURL = "https://damquangkhoa.github.io/resume"
@@ -141,9 +140,35 @@ googleAnalytics = "G-BX9MR0QQYR"
 
         [[params.experience.list]]
         title = "Software Engineer"
-        dates = "Q3 2023 - Present"
+        dates = "Q4 2023"
+        company = "LINE Japan Verda Platform MongoDB"
+        details = "Developed and maintained LINE's internal MongoDB platform that enables developers to create and manage MongoDB resources using LINE's infrastructure. Similar to cloud providers like AWS and Google Cloud, but built specifically for LINE's internal infrastructure and server ecosystem. The platform streamlines database resource provisioning and management for LINE's development teams."
+        [[params.experience.list.items]]
+        details = "Built backend services using Python to handle MongoDB resource provisioning and management"
+        [[params.experience.list.items]]
+        details = "Developed modern React frontend interface for platform configuration and monitoring"
+        [[params.experience.list.items]]
+        details = "Implemented RESTful APIs to handle resource creation, scaling, and maintenance operations"
+        [[params.experience.list.items]]
+        details = "Created automated deployment pipelines for MongoDB clusters and configurations"
+        [[params.experience.list.items]]
+        details = "Integrated monitoring and alerting systems for database health and performance"
+        [[params.experience.list.items]]
+        details = "Implemented role-based access control and security measures for resource management"
+        [[params.experience.list.items]]
+        details = "Developed documentation and guides for platform usage and best practices"
+        [[params.experience.list.items]]
+        details = "Reduced database provisioning time from days to minutes through automation"
+        [[params.experience.list.items]]
+        details = "Improved resource utilization and cost efficiency across LINE's MongoDB infrastructure"
+        [[params.experience.list.items]]
+        details = "Enabled self-service database management for over 1000 LINE developers"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Q3 2023"
         company = "LINE Japan ML Data Curation App"
-        details = "LINE developed an internal web app that empowers data scientists to curate and label datasets for training machine learning models. Clean, high-quality data is critical for ML success. This app gave data scientists self-service access to manage and enrich datasets at scale. The app provided data visualization, annotation tools, version control, and integration with model training pipelines. Built on Python, React, and TensorFlow, it showcased LINE's expertise in ML engineering"
+        details = "LINE developed an internal web app that empowers data scientists to curate and label datasets for training machine learning models. Clean, high-quality data is critical for ML success. This app gave data scientists self-service access to manage and enrich datasets at scale. The app provided data visualization, annotation tools, version control, and integration with model training pipelines. Built on Python, React, and TensorFlow, it showcased LINE's expertise in ML engineering."
         [[params.experience.list.items]]
         details = "Created web application using Vue 3, Vite, and Ant Design framework on frontend and Express, Java on backend to help data scientists curate training data for machine learning models"
         [[params.experience.list.items]]
@@ -157,7 +182,7 @@ googleAnalytics = "G-BX9MR0QQYR"
         [[params.experience.list.items]]
         details = "Containerized backend services using Docker for easy deployment to Kubernetes cluster"
         [[params.experience.list.items]]
-        details = "Contributed to multiple frontend and backend repos in team’s Github environment"
+        details = "Contributed to multiple frontend and backend repos in team's Github environment"
         [[params.experience.list.items]]
         details = "Increased labeled data volume by 2x over manual process"
         [[params.experience.list.items]]
@@ -439,7 +464,7 @@ googleAnalytics = "G-BX9MR0QQYR"
         [[params.information.list]]
         title = "Certifications"
         [[params.information.list.items]]
-        details = "Certificate “Excellent achievements in Youth Union Work” of Youth Union"
+        details = "Certificate 'Excellent achievements in Youth Union Work' of Youth Union"
         [[params.information.list.items]]
         details = "Certificate Policipal Insurance Blockchain Hackathon"
         [[params.information.list.items]]
@@ -449,7 +474,7 @@ googleAnalytics = "G-BX9MR0QQYR"
         [[params.information.list.items]]
         details = "Certificate VietNam Impact Startup of SUSS(Singapore University Social Science) -Singapore"
         [[params.information.list.items]]
-        details = "Certificate Data Science – Facebook Dev C - Coder School"
+        details = "Certificate Data Science - Facebook Dev C - Coder School"
         [[params.information.list.items]]
         details = "Certificate Near Building Dapp"
 
